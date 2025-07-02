@@ -1,0 +1,63 @@
+/*
+
+no CSS nos expressamos estilos na pagina.
+exemplo: "o paragrafo deve ser da cor vermelha"
+
+SELETOR - (quem?) - paragrafo   p
+
+ATRIBUTO - (o que?) - cor   color
+
+VALOR - (qual?) - vermelho   red
+
+
+*/
+
+p{
+    color: goldenrod;
+    font-size: 28px;
+    font-family: 'Comic Sans MS';
+    background-color: rgb(41, 41, 41) ;
+    text-align: center;
+    border:3.5px outset goldenrod;
+    /*
+tipos de bordas
+
+solid
+dotted
+dashed
+double
+inset
+outset
+ridge
+groove
+
+
+
+
+
+    */
+}
+
+h1{
+    color: blue;
+    font-size: 39px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(11, 11, 65);
+    text-align: center;
+    border: 4.65px groove rgb(107, 107, 255);
+}
+
+img{
+    height: 280px;
+    width: 500px;
+    border: 10px outset rgb(255, 195, 65);
+    border-radius: 25px;
+    background-color: rgb(202, 177, 146);
+}
+
+body{
+    background-color: #4c7ebe94;
+}
+
+
+
